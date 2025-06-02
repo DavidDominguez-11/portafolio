@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "years": "2023-2024",
+    "info": "Auxiliar de Cátedra - Programación I",
+    "institution": "Universidad Nacional",
+    "description": "Apoyo en clases prácticas, corrección de exámenes y tutoría a estudiantes"
+  },
+  {
+    "id": 2,
+    "years": "2022-2023",
+    "info": "Auxiliar de Cátedra - Algoritmos y Estructuras de Datos",
+    "institution": "Universidad Nacional",
+    "description": "Asistencia en Laboratorios y desarrollo de material didáctico"
+  }
+]

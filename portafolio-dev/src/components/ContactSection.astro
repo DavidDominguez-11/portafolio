@@ -1,0 +1,61 @@
+---
+import contactData from "../data/contact.json";
+
+interface ContactLink {
+  label: string;
+  value: string;
+  url: string;
+}
+
+interface ContactLinksMap {
+  email: ContactLink;
+  linkedin: ContactLink;
+  github: ContactLink;
+}
+
+const contactLinks: ContactLinksMap = contactData;
+---
+
+<section class="py-12 px-6 md:px-12 lg:px-24 bg-gray-900 text-gray-200">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-green-400 mb-10 flex items-center">
+      <span class="font-mono text-xl mr-2">&lt;&gt;</span>~/contacto
+    </h2>
+
+    <div class="bg-gray-800 text-green-400 font-mono p-6 rounded-lg shadow-lg">
+      <div class="mb-2">
+        <span class="text-blue-400">guest@portfalio</span>:~$ <span
+          class="animate-pulse">|</span
+        >
+      </div>
+      <div class="mb-2">
+        <span class="text-blue-400">guest@portfalio</span>:~$ contact --me
+      </div>
+      <div class="pl-4">
+        <p>
+          <span class="text-yellow-300">Email:</span>
+          <a
+            href={contactLinks.email.url}
+            class="underline hover:text-green-300 transition-colors duration-200"
+            >{contactLinks.email.value}</a>
+        </p>
+        <p>
+          <span class="text-yellow-300">LinkedIn:</span>
+          <a
+            href={contactLinks.linkedin.url}
+            class="underline hover:text-green-300 transition-colors duration-200"
+            target="_blank"
+            rel="noopener noreferrer">{contactLinks.linkedin.value}</a>
+        </p>
+        <p>
+          <span class="text-yellow-300">GitHub:</span>
+          <a
+            href={contactLinks.github.url}
+            class="underline hover:text-green-300 transition-colors duration-200"
+            target="_blank"
+            rel="noopener noreferrer">{contactLinks.github.value}</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

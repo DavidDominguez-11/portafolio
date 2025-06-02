@@ -1,0 +1,19 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer
+  class="bg-gray-900 text-gray-400 py-6 px-6 md:px-12 lg:px-24 border-t border-gray-800 text-center text-sm font-mono"
+>
+  <div
+    class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between"
+  >
+    <p>&copy; {currentYear} daviddom.dev</p>
+    <p>
+      Hecho con <span class="text-green-500">Bun</span>, <span
+        class="text-purple-400">Astro</span
+      >,
+      <span class="text-blue-400">Tailwind CSS</span>.
+    </p>
+  </div>
+</footer>

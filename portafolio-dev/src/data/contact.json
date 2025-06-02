@@ -1,0 +1,17 @@
+{
+  "email": {
+    "label": "Email",
+    "value": "tuemail@gmail.com",
+    "url": "mailto:tuemail@gmail.com"
+  },
+  "linkedin": {
+    "label": "LinkedIn",
+    "value": "linkedin.com/in/tuusuario",
+    "url": "https://www.linkedin.com/in/tuusuario"
+  },
+  "github": {
+    "label": "GitHub",
+    "value": "github.com/tuusuario",
+    "url": "https://github.com/tuusuario"
+  }
+}

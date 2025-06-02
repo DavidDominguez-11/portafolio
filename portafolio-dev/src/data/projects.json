@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "./task-manager-api",
+    "description": "REST API para gestión de tareas con autenticación JWT",
+    "technologies": ["Node.js", "Express", "MongoDB", "JWT"],
+    "status": "Production",
+    "statusColor": "bg-green-600",
+    "codeLink": "https://github.com/tu-usuario/task-manager-api"
+  },
+  {
+    "id": 2,
+    "title": "./react-weather-app",
+    "description": "Aplicación del clima con geolocalización y PWA",
+    "technologies": ["React", "TypeScript", "Tailwind", "OpenWeather API"],
+    "status": "Live",
+    "statusColor": "bg-red-500",
+    "codeLink": "https://github.com/tu-usuario/react-weather-app"
+  },
+  {
+    "id": 3,
+    "title": "./python-data-analyzer",
+    "description": "Herramienta de análisis de datos con visualizaciones",
+    "technologies": ["Python", "Pandas", "Matplotlib", "Streamlit"],
+    "status": "Active",
+    "statusColor": "bg-lime-500",
+    "codeLink": "https://github.com/tu-usuario/python-data-analyzer"
+  },
+  {
+    "id": 4,
+    "title": "./vue-ecommerce",
+    "description": "Tienda online con carrito y pasarela de pagos",
+    "technologies": ["Vue.js", "Vuex", "Firebase", "Stripe"],
+    "status": "Demo",
+    "statusColor": "bg-blue-500",
+    "codeLink": "https://github.com/tu-usuario/vue-ecommerce"
+  }
+]

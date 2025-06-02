@@ -1,0 +1,51 @@
+---
+import technologiesData from '../data/technologies.json';
+
+interface Technology {
+  name: string;
+  icon: string;
+  color: string;
+}
+
+interface TechnologiesCategories {
+  frontend: Technology[];
+  backend: Technology[];
+  learning: Technology[];
+  others: Technology[];
+}
+
+const technologies: TechnologiesCategories = technologiesData;
+
+const categoryTitles = {
+  frontend: 'Frontend',
+  backend: 'Backend',
+  learning: 'Aprendiendo',
+  others: 'Otros',
+};
+---
+
+<section class="py-12 px-6 md:px-12 lg:px-24 bg-gray-900 text-gray-200">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-green-400 mb-10 flex items-center">
+      <span class="font-mono text-xl mr-2">&lt;&gt;</span>~/tecnologias
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 ">
+      {Object.entries(technologies).map(([categoryKey, techList]) => (
+        <div class="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-green-500 transition-all duration-200">
+          <h3 class="text-2xl font-semibold text-cyan-400 mb-6">
+            {categoryTitles[categoryKey as keyof TechnologiesCategories]}
+          </h3>
+          <div class="flex flex-wrap gap-4">
+            {techList.map((tech: { icon: any; color: any; name: unknown; }) => (
+              <div class="flex flex-col items-center text-center">
+                <i class={`${tech.icon} text-5xl mb-1 ${tech.color}`}></i>
+                <span class="text-sm text-gray-300">{tech.name}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

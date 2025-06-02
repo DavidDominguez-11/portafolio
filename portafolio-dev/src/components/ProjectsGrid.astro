@@ -1,0 +1,30 @@
+---
+import ProjectCard from './ProjectCard.astro';
+import projectsData from '../data/projects.json';
+
+interface Project {
+  id: number;
+  title: string;
+  description: string;
+  technologies: string[];
+  status: string;
+  statusColor: string;
+  codeLink: string;
+}
+
+const projects: Project[] = projectsData;
+---
+
+<section class="py-12 px-6 md:px-12 lg:px-24 bg-gray-900 text-gray-200">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-green-400 mb-10 flex items-center">
+      <span class="font-mono text-xl mr-2">&lt;&gt;</span>~/proyectos
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      {projects.map((project) => (
+        <ProjectCard project={project} />
+      ))}
+    </div>
+  </div>
+</section>

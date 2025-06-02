@@ -1,0 +1,38 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import ProfileCodeBlock from '../components/ProfileCodeBlock.astro';
+import ProjectsGrid from '../components/ProjectsGrid.astro';
+import TechnologiesSection from '../components/TechnologiesSection.astro';
+import ExperienceSection from '../components/ExperienceSection.astro';
+import ContactSection from '../components/ContactSection.astro';
+---
+
+<Layout title="Mi Portafolio">
+  <main>
+    <section id="home">
+      <Hero />
+    </section>
+
+    <section id="sobre_mi">
+      <ProfileCodeBlock />
+    </section>
+
+    <section id="proyectos">
+      <ProjectsGrid />
+    </section>
+
+    <section id="tecnologias">
+      <TechnologiesSection />
+    </section>
+
+    <section id="experiencia">
+      <ExperienceSection />
+    </section>
+
+    <section id="contacto">
+      <ContactSection />
+    </section>
+  </main>
+</Layout>
