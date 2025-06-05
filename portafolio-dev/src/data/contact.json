@@ -1,17 +1,17 @@
 {
   "email": {
     "label": "Email",
-    "value": "tuemail@gmail.com",
-    "url": "mailto:tuemail@gmail.com"
+    "value": "dominguezdavid396@gmail.com",
+    "url": "dominguezdavid396@gmail.com"
   },
   "linkedin": {
     "label": "LinkedIn",
-    "value": "linkedin.com/in/tuusuario",
-    "url": "https://www.linkedin.com/in/tuusuario"
+    "value": "linkedin.com/in/David-Domínguez",
+    "url": "https://www.linkedin.com/in/david-andr%C3%A9s-dom%C3%ADnguez-ram%C3%ADrez-29673b252/"
   },
   "github": {
     "label": "GitHub",
-    "value": "github.com/tuusuario",
-    "url": "https://github.com/tuusuario"
+    "value": "github.com/DavidDominguez-11",
+    "url": "https://github.com/DavidDominguez-11"
   }
 }

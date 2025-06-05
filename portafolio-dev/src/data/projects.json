@@ -1,38 +1,132 @@
 [
   {
     "id": 1,
-    "title": "./task-manager-api",
-    "description": "REST API para gestión de tareas con autenticación JWT",
-    "technologies": ["Node.js", "Express", "MongoDB", "JWT"],
-    "status": "Production",
-    "statusColor": "bg-green-600",
-    "codeLink": "https://github.com/tu-usuario/task-manager-api"
+    "title": "./lab3_db",
+    "description": "Sistema de seguimiento de hábitos y retos con backend Node.js y PostgreSQL",
+    "technologies": ["Node.js", "Express", "PostgreSQL", "Prisma", "Docker"],
+    "status": "Functional",
+    "statusColor": "bg-green-500",
+    "codeLink": "https://github.com/DavidDominguez-11/lab3_db"
   },
   {
     "id": 2,
-    "title": "./react-weather-app",
-    "description": "Aplicación del clima con geolocalización y PWA",
-    "technologies": ["React", "TypeScript", "Tailwind", "OpenWeather API"],
-    "status": "Live",
-    "statusColor": "bg-red-500",
-    "codeLink": "https://github.com/tu-usuario/react-weather-app"
+    "title": "./proyecto3_db",
+    "description": "Sistema de Gestión de Galería de Arte con backend Go y PostgreSQL",
+    "technologies": ["Go", "PostgreSQL", "Docker", "HTML5/CSS3", "JavaScript"],
+    "status": "Functional",
+    "statusColor": "bg-green-500",
+    "codeLink": "https://github.com/DavidDominguez-11/proyecto3_db"
   },
   {
     "id": 3,
-    "title": "./python-data-analyzer",
-    "description": "Herramienta de análisis de datos con visualizaciones",
-    "technologies": ["Python", "Pandas", "Matplotlib", "Streamlit"],
-    "status": "Active",
-    "statusColor": "bg-lime-500",
-    "codeLink": "https://github.com/tu-usuario/python-data-analyzer"
+    "title": "./loginClase-fronted",
+    "description": "Frontend para Sistema de autenticación con JWT (login, registro y perfil)",
+    "technologies": ["HTML5", "CSS3", "JavaScript", "JWT"],
+    "status": "Functional",
+    "statusColor": "bg-green-500",
+    "codeLink": "https://github.com/DavidDominguez-11/loginClase-fronted"
   },
   {
     "id": 4,
-    "title": "./vue-ecommerce",
-    "description": "Tienda online con carrito y pasarela de pagos",
-    "technologies": ["Vue.js", "Vuex", "Firebase", "Stripe"],
-    "status": "Demo",
-    "statusColor": "bg-blue-500",
-    "codeLink": "https://github.com/tu-usuario/vue-ecommerce"
+    "title": "./elogin",
+    "description": "Backend para Sistema de autenticación con JWT (login, registro y perfil) usando SQLite",
+    "technologies": ["Go", "SQLite", "JWT", "Chi Router"],
+    "status": "Functional",
+    "statusColor": "bg-green-500",
+    "codeLink": "https://github.com/DavidDominguez-11/elogin"
+  },
+  {
+    "id": 5,
+    "title": "./Series-Tracker",
+    "description": "Aplicación full-stack para gestionar listas de series con seguimiento de episodios y sistema de ranking",
+    "technologies": ["Go", "MySQL", "JavaScript Vanilla", "Docker"],
+    "status": "Functional",
+    "statusColor": "bg-green-500",
+    "codeLink": "https://github.com/DavidDominguez-11/Series-Tracker"
+  },
+  {
+    "id": 6,
+    "title": "proyecto2_micros",
+    "description": "Programa de minería paralela de números primos usando C y OpenMP con comparación de rendimiento secuencial vs paralelo",
+    "technologies": ["C", "OpenMP", "CMake"],
+    "status": "Functional",
+    "statusColor": "bg-green-500",
+    "codeLink": "https://github.com/DavidDominguez-11/proyecto2_micros"
+  },
+  {
+    "id": 7,
+    "title": "Wishify",
+    "description": "Aplicación móvil para crear y gestionar listas de deseos personalizadas con integración de Firebase y consumo de API REST",
+    "technologies": [
+      "Kotlin",
+      "Firebase",
+      "Jetpack Compose",
+      "Retrofit",
+      "MVVM"
+    ],
+    "status": "Functional",
+    "statusColor": "bg-green-500",
+    "codeLink": "https://github.com/AleWWH1104/Proyecto_PPM"
+  },
+  {
+    "id": 8,
+    "title": "Asteroid Game",
+    "description": "Juego de asteroides multijugador implementado en C++ con hilos para manejo concurrente de naves y asteroides, incluyendo sistema de colisiones y puntuación",
+    "technologies": [
+      "C++",
+      "Pthreads",
+      "OOP",
+      "Multithreading",
+      "ASCII Graphics"
+    ],
+    "status": "Functional",
+    "statusColor": "bg-green-500",
+    "codeLink": "https://github.com/AleWWH1104/Proyecto3_Microprocesadores"
+  },
+  {
+    "id": 9,
+    "title": "Transport Network with Dijkstra",
+    "description": "Sistema de red de transporte que implementa el algoritmo de Dijkstra para calcular las rutas más cortas entre estaciones, con visualización gráfica usando NetworkX",
+    "technologies": [
+      "Python",
+      "NetworkX",
+      "Matplotlib",
+      "Graph Theory",
+      "Dijkstra Algorithm"
+    ],
+    "status": "Functional",
+    "statusColor": "bg-green-500",
+    "codeLink": "https://github.com/AleWWH1104/HDT9_Alg.Dijkstra"
+  },
+  {
+    "id": 10,
+    "title": "Discrete Math Calculator",
+    "description": "Aplicación de escritorio para cálculo de permutaciones y combinaciones con interfaz gráfica, que implementa fórmulas combinatorias avanzadas con opciones para considerar orden y repetición",
+    "technologies": [
+      "Python",
+      "Tkinter",
+      "Combinatorics",
+      "itertools",
+      "GUI Development"
+    ],
+    "status": "Functional",
+    "statusColor": "bg-green-500",
+    "codeLink": "https://github.com/AleWWH1104/Proyecto1-MateDiscreta"
+  },
+  {
+    "id": 11,
+    "title": "My SoulMate - Food Recommendation System",
+    "description": "Web application that provides personalized food recommendations based on user preferences using graph database relationships and user authentication",
+    "technologies": [
+      "Python",
+      "Flask",
+      "Neo4j",
+      "Firebase",
+      "Graph Databases",
+      "HTML/CSS"
+    ],
+    "status": "Functional",
+    "statusColor": "bg-green-500",
+    "codeLink": "https://github.com/[username]/MySoulComida"
   }
 ]

@@ -1,16 +1,23 @@
 [
   {
     "id": 1,
-    "years": "2023-2024",
-    "info": "Auxiliar de Cátedra - Programación I",
-    "institution": "Universidad Nacional",
-    "description": "Apoyo en clases prácticas, corrección de exámenes y tutoría a estudiantes"
+    "years": "2025",
+    "info": "Auxiliar de Cátedra - Organización de Computadoras y Assembler",
+    "institution": "Universidad del Valle de Guatemala",
+    "description": "Asesoré a estudiantes en arquitectura de computadoras, enfocándome en conceptos como registros, manejo de memoria y programación en lenguaje ensamblador. Colaborando con ejercicios prácticos para depuración con GDB y optimización de código a bajo nivel, ayudando a comprender la relación entre hardware y software."
   },
   {
     "id": 2,
-    "years": "2022-2023",
-    "info": "Auxiliar de Cátedra - Algoritmos y Estructuras de Datos",
-    "institution": "Universidad Nacional",
-    "description": "Asistencia en Laboratorios y desarrollo de material didáctico"
+    "years": "2025",
+    "info": "Auxiliar de Cátedra - Algoritmos y Programación Básica",
+    "institution": "Universidad del Valle de Guatemala",
+    "description": "Guié a estudiantes en fundamentos de programación usando Python, desde sintaxis básica hasta estructuras de control, funciones y ciclos, con problemas enfocados en lógica algorítmica, incluyendo técnicas para análisis de datos."
+  },
+  {
+    "id": 3,
+    "years": "2023-2025",
+    "info": "Desarrollador Full-Stack & Sistemas Embebidos",
+    "institution": "Proyectos Personales y Académicos",
+    "description": "Lideré el desarrollo de 10+ proyectos técnicos usando tecnologías como Go, Node.js, PostgreSQL y Docker. Implementé desde APIs REST (con autenticación JWT) hasta sistemas distribuidos con concurrencia en C++. Destacan: Sistema de seguimiento de hábitos y retos utilizando Prisma ORM, un sistema de minería de primos paralelizado con OpenMP, y una app móvil en Kotlin con Firebase."
   }
 ]
